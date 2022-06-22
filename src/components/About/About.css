@@ -6,6 +6,7 @@
 .about-pic-para {
     display: flex;
     flex-direction: column;
+    
 }
 
 
@@ -15,7 +16,7 @@
 }
 .logos-container {
     white-space: nowrap;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 img {
     width: 350px;
@@ -41,8 +42,8 @@ p {
     }
 
     .about-info {
-        align-self: flex-start;
-    margin-left: 4rem;
+        align-self: center;
+        margin-left: 4rem;
     }
     p {
         line-height: 2.5rem;

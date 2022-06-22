@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 const smallHeadshot = require("../../assets/small-headshot.jpeg");
-const largeHeadshot = require("../../assets/large-headshot.jpeg");
 
 const Hero = () => {
   return (
@@ -24,30 +23,37 @@ const Hero = () => {
             <img
               className="logos"
               src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+              alt="react icon"
             />
             <img
               className="logos"
               src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg"
+              alt="html icon"
             />
             <img
               className="logos"
               src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+              alt="javascript icon"
             />
             <img
               className="logos"
               src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"
+              alt="css icon"
             />
             <img
               className="logos"
               src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+              alt="bootstrap icon"
             />
             <img
               className="logos"
               src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+              alt="tailwind icon"
             />
             <img
               className="logos"
               src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
+              alt="git icon"
             />
           </div>
         </div>
