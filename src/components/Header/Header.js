@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.css";
+
 
 import "./Header.css";
 
@@ -24,7 +24,7 @@ function Header() {
         </h1>
         <i
           onClick={toggleMenu}
-          className="hamburger fa-solid fa-bars fa-2xl d-none"
+          className="hamburger fa-solid fa-bars fa-2xl"
         ></i>
         <div className="nav-links">
           <ul className="d-flex list-unstyled">
