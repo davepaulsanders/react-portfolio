@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 
-
 import "./Header.css";
 
-function Header() {
+function Header(props) {
+  const { links, activeNav, setActiveNav } = props;
+  console.log(links, activeNav);
   const [menuStatus, setMenuStatus] = useState(false);
-  const links = ["About", "Projects", "Contact", "Resume"];
+
   const toggleMenu = (e) => {
     e.preventDefault();
     if (menuStatus) {
@@ -20,7 +21,9 @@ function Header() {
     <div>
       <nav className="w-100 d-flex justify-content-between align-items-center">
         <h1 className="site-title no-wrap">
-          <a className="text-decoration-none text-black" href="/">Dave Sanders</a>
+          <a className="text-decoration-none text-black" href="/">
+            Dave Sanders
+          </a>
         </h1>
         <i
           onClick={toggleMenu}
@@ -30,7 +33,7 @@ function Header() {
           <ul className="d-flex list-unstyled">
             {links.map((link) => {
               return (
-                <li key={link} className="">
+                <li key={link} className={link === activeNav && "active"}>
                   <a
                     className="links text-decoration-none text-black"
                     href={link}
