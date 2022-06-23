@@ -22,6 +22,9 @@ function Header(props) {
     if (window.innerWidth > 700) {
       document.querySelector(".nav-links").style.display = "block";
       setMenuStatus(true);
+    } else {
+      setMenuStatus(false);
+      document.querySelector(".nav-links").style.display = "none";
     }
   });
 
