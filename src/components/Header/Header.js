@@ -4,11 +4,12 @@ import "./Header.css";
 
 function Header(props) {
   const { links, activeNav, setActiveNav } = props;
-  console.log(links, activeNav);
+
   const [menuStatus, setMenuStatus] = useState(false);
 
   const toggleMenu = (e) => {
     e.preventDefault();
+    // this is the problem right here
     if (menuStatus) {
       document.querySelector(".nav-links").style.display = "none";
     } else {
@@ -16,6 +17,13 @@ function Header(props) {
     }
     setMenuStatus(!menuStatus);
   };
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 700) {
+      document.querySelector(".nav-links").style.display = "block";
+      setMenuStatus(true);
+    }
+  });
 
   return (
     <div>
@@ -33,13 +41,15 @@ function Header(props) {
           <ul className="d-flex list-unstyled">
             {links.map((link) => {
               return (
-                <li key={link} className={link === activeNav && "active"}>
-                  <a
-                    className="links text-decoration-none text-black"
-                    href={link}
-                  >
-                    {link}
-                  </a>
+                <li
+                  key={link}
+                  className={link === activeNav && "active"}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setActiveNav(link);
+                  }}
+                >
+                  {link}
                 </li>
               );
             })}
