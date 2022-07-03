@@ -6,6 +6,7 @@ const Resume = () => {
     <div className="d-flex flex-column justify-content-center">
       <h2 className="resume-title text-center">Resume</h2>
       <iframe
+        title="resume"
         width="780"
         height="1000"
         src="https://docs.google.com/document/d/e/2PACX-1vR--kEgCaoY8xdJdcFx3CBLa-MwZXXzQgLl3uQHPuFzJ_3g9IlGwR5VC6t2jkVPVw/pub?embedded=true"
