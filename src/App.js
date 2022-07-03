@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header links={links} activeNav={activeNav} setActiveNav={setActiveNav} />
-      <div className="site-container d-flex justify-content-center">
+      <div className="site-container d-flex justify-content-center w-100">
         {activeNav === "Resume" && <Resume />}
         {activeNav === "About" && <About />}
       </div>

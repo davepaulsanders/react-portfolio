@@ -4,7 +4,7 @@ const smallHeadshot = require("../../assets/small-headshot.jpeg");
 
 const Hero = () => {
   return (
-    <div className="container d-flex flex-column justify-content-center align-items-center text-center p-4 w-75">
+    <div className="container d-flex flex-column justify-content-center align-items-center text-center p-4">
       <div>
         <h2 className="about-hero pb-4">
           Full Stack Web Developer from Washington D.C.
@@ -12,14 +12,14 @@ const Hero = () => {
       </div>
       <div className="about-pic-para justify-content-center align-items-center w-75">
         <img src={smallHeadshot} alt="Dave Sanders Headshot" />
-        <div className="about-info">
+        <div className="about-info w-100">
           <p>
             Full stack web developer applying orchestra training and university
             background to build projects that make tasks easier. Recently earned
             a certificate in full stack development from George Washington
             University.
           </p>
-          <div className="logos-container">
+          <div className="logos-container d-flex justify-content-center">
             <img
               className="logos"
               src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"

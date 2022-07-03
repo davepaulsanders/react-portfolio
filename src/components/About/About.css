@@ -11,8 +11,8 @@
 
 
 .logos {
-    width: 3rem;
-    margin: 0
+    width: 2.5rem!important;
+    margin: 0.25rem!important;
 }
 .logos-container {
     white-space: nowrap;

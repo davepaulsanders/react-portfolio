@@ -1,4 +1,33 @@
-.logos {
-    margin: 1rem;
-    width: 50px;
+.skill-icons {
+    width: 3rem;
+    margin: 0rem 0.5rem 1rem 0.5rem;
+    height: auto;
+}
+
+.skills-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.skills-title {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.skills-extra-info {
+    margin-top: 1rem;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.skills-text {
+    padding-left: 0.5rem;
+    text-align: left;
 }
