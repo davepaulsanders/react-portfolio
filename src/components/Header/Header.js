@@ -9,7 +9,6 @@ function Header(props) {
 
   const toggleMenu = (e) => {
     e.preventDefault();
-    // this is the problem right here
     if (menuStatus) {
       document.querySelector(".nav-links").style.display = "none";
     } else {
