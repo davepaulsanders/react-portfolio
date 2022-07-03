@@ -54,66 +54,46 @@
 }
 .skills-container img {
     transition: transform 0.3s ease-in-out;
-    animation: materialize;
-    animation-duration: 0.3s;
-    animation-fill-mode: backwards;
-    animation-timing-function: ease-in;
+    animation: materialize ease-in 0.3s backwards;
+
 }
 .skills-container img:nth-child(1) {
-    animation: materialize;
+    animation: materialize ease-in 0.3s backwards;
     animation-delay: 0.1s;
-    animation-fill-mode: backwards;
-    animation-timing-function: ease-in;
-    animation-duration: 0.3s;
 }
 .skills-container img:nth-child(2) {
-    animation: materialize;
-    animation-timing-function: ease-in;
+    animation: materialize ease-in 0.3s backwards;
     animation-delay: 0.2s;
-    animation-duration: 0.3s;
-    animation-fill-mode: backwards;
+ 
 }
 .skills-container img:nth-child(3) {
-    animation: materialize;
+    animation: materialize ease-in 0.3s backwards;
     animation-delay: 0.3s;
-    animation-duration: 0.3s;
-    animation-fill-mode: backwards;
-    animation-timing-function: ease-in;
+    
 }
 .skills-container img:nth-child(4) {
-    animation: materialize;
+    animation: materialize ease-in 0.3s backwards;
     animation-delay: 0.4s;
-    animation-duration: 0.3s;
-    animation-fill-mode: backwards;
-    animation-timing-function: ease-in;
+
 }
 .skills-container img:nth-child(5) {
-    animation: materialize;
+    animation: materialize ease-in 0.3s backwards;
     animation-delay: 0.5s;
-    animation-duration: 0.3s;
-    animation-fill-mode: backwards;
-    animation-timing-function: ease-in;
+    
 }
 .skills-container img:nth-child(6) {
-    animation: materialize;
+    animation: materialize ease-in 0.3s backwards;
     animation-delay: 0.6s;
-    animation-duration: 0.3s;
-    animation-fill-mode: backwards;
-    animation-timing-function: ease-in;
 }
 .skills-container img:nth-child(7) {
-    animation: materialize;
+    animation: materialize ease-in 0.3s backwards;
     animation-delay: 0.7s;
-    animation-duration: 0.3s;
-    animation-fill-mode: backwards;
-    animation-timing-function: ease-in;
+    
 }
 .skills-container img:nth-child(8) {
-    animation: materialize;
+    animation: materialize ease-in 0.3s backwards;
     animation-delay: 0.8s;
-    animation-duration: 0.3s;
-    animation-fill-mode: backwards;
-    animation-timing-function: ease-in;
+    
 }
 
 @keyframes materialize {
