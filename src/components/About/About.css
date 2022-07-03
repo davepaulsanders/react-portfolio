@@ -29,7 +29,7 @@ p {
     text-align: center;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
     .about-hero {
         font-size: 3rem;
     

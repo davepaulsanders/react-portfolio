@@ -27,6 +27,13 @@ function Header(props) {
     }
   });
 
+  const handleNavClick = (e) => {
+    e.preventDefault();
+    setActiveNav(e.target.textContent);
+    setMenuStatus(false);
+    if (menuStatus === true)
+    document.querySelector(".nav-links").style.display = "none";
+  };
   return (
     <div>
       <nav className="w-100 d-flex justify-content-between align-items-center">
@@ -46,10 +53,7 @@ function Header(props) {
                 <li
                   key={link}
                   className={link === activeNav && "active"}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setActiveNav(link);
-                  }}
+                  onClick={handleNavClick}
                 >
                   {link}
                 </li>

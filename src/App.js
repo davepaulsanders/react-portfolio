@@ -10,8 +10,10 @@ function App() {
   return (
     <div className="App">
       <Header links={links} activeNav={activeNav} setActiveNav={setActiveNav} />
-      {activeNav === "Resume" && <Resume />}
-      {activeNav === "About" && <About />}
+      <div className="site-container d-flex justify-content-center">
+        {activeNav === "Resume" && <Resume />}
+        {activeNav === "About" && <About />}
+      </div>
     </div>
   );
 }
