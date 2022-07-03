@@ -18,7 +18,7 @@ nav {
 }
 .active{
     color: white;
-    background-color: #f4a389;
+    background-color: #ccd5ae;
 }
 
 li {
@@ -50,7 +50,7 @@ li {
         top: 5.5rem;
         right: 0;
         position: absolute;
-        background-color: #f4a389;
+        background-color: #ccd5ae;
         padding: 1rem 1.5rem;
         display: none;
     }

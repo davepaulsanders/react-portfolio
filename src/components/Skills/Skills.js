@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import "./Resume.css";
-const Resume = () => {
+import "./Skills.css";
+
+const Skills = () => {
   const skills = [
-    "Comfortable building React apps with hooks and state mananagement using Context",
-    "Building back end applications and routing through node",
+    "▹ Comfortable building React apps with hooks and state mananagement using Context",
+    "▹ Building back end applications and routing through node\n\n▹ This is the second one",
   ];
   const [skillText, setSkillText] = useState(skills[0]);
 
@@ -48,8 +49,8 @@ const Resume = () => {
     setSkillText(skills[index]);
   };
   return (
-    <div className="resume-info d-flex justify-content-center align-items-center flex-column p-4 w-100">
-      <h2 className="skills-title">Skills & Resume</h2>
+    <div className="skills-info d-flex justify-content-center align-items-center flex-column w-100">
+      <h2 className="skills-title">Skills</h2>
       <div className="skills-container">
         {skillsImages.map((skill, i) => {
           return (
@@ -64,11 +65,11 @@ const Resume = () => {
           );
         })}
       </div>
-      <div className="skills-extra-info p-3 shadow-sm">
+      <div className="skills-extra-info d-flex w-100 p-3">
         <p className="skills-text">{skillText}</p>
       </div>
     </div>
   );
 };
 
-export default Resume;
+export default Skills;

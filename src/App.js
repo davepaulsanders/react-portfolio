@@ -2,16 +2,16 @@ import "./App.css";
 import { useState } from "react";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
-import Resume from "./components/Resume/Resume";
+import Skills from "./components/Skills/Skills";
 
 function App() {
-  const [links] = useState(["About", "Projects", "Contact", "Resume"]);
+  const [links] = useState(["About", "Projects", "Contact", "Skills", "Resume"]);
   const [activeNav, setActiveNav] = useState(links[0]);
   return (
     <div className="App">
       <Header links={links} activeNav={activeNav} setActiveNav={setActiveNav} />
       <div className="site-container d-flex justify-content-center w-100">
-        {activeNav === "Resume" && <Resume />}
+        {activeNav === "Skills" && <Skills />}
         {activeNav === "About" && <About />}
       </div>
     </div>
