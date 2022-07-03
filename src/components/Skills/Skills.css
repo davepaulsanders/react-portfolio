@@ -1,21 +1,17 @@
 .skills-info {
     margin-top: 2rem;
 }
-.skills {
-    width: 2.5rem;
-    margin-bottom: 0;
-    padding-bottom: 1rem;
-}
 .skill-icons {
-    width: 3rem;
-    margin: 0rem 0.5rem 1rem 0.5rem;
-    height: auto;
+    width: auto;
+    height: 2rem;
+    margin-bottom: 0;
+    margin: 0rem 0.5rem;
 }
 
 .skills-container {
     display: flex;
     width: 100%;
-    padding-left: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
     flex-wrap: nowrap;
     overflow-x: auto;
 }
@@ -26,12 +22,10 @@
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    
     border-bottom: 1px solid black;
 }
 
 .skills-extra-info {
-    margin-top: 2rem;
     height: auto;
     background-color: #ccd5ae;
     white-space: pre-wrap;
