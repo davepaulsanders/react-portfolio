@@ -16,6 +16,15 @@
     overflow-x: auto;
 }
 
+@media only screen and (min-width: 800px) {
+    .skills-container {
+        justify-content: center;
+    }
+    .skills-extra-info {
+        width: 60%!important;
+    }
+}
+
 .skills-title {
     width: 90%;
     text-align: center;
@@ -29,6 +38,7 @@
     height: auto;
     background-color: #ccd5ae;
     white-space: pre-wrap;
+    width: 100%;
 }
 
 .skills-text {

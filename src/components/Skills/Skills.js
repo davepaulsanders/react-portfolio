@@ -65,7 +65,7 @@ const Skills = () => {
           );
         })}
       </div>
-      <div className="skills-extra-info d-flex w-100 p-3">
+      <div className="skills-extra-info d-flex p-3">
         <p className="skills-text">{skillText}</p>
       </div>
     </div>
