@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Skills.css";
 
+
 const Skills = () => {
   const skills = [
     "▹ Comfortable building React apps with hooks and state mananagement using Context",
@@ -14,7 +15,8 @@ const Skills = () => {
       name: "react",
     },
     {
-      src: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+      src:
+        "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
       name: "node",
     },
     {
@@ -22,19 +24,23 @@ const Skills = () => {
       name: "express",
     },
     {
-      src: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
+      src:
+        "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
       name: "mongo",
     },
     {
-      src: "https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg",
+      src:
+        "https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg",
       name: "mysql",
     },
     {
-      src: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+      src:
+        "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
       name: "tailwind",
     },
     {
-      src: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
+      src:
+        "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
       name: "bootstrap",
     },
     {
@@ -55,7 +61,7 @@ const Skills = () => {
         {skillsImages.map((skill, i) => {
           return (
             <img
-              className="skill-icons"
+              className={`skill-icons`}
               src={skill.src}
               alt={skill.name}
               key={skill.name}

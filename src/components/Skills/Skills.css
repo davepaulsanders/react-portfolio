@@ -6,6 +6,7 @@
     height: 2rem;
     margin-bottom: 0;
     margin: 0rem 0.5rem;
+    cursor: pointer;
 }
 
 .skills-container {
@@ -45,4 +46,84 @@
     padding-left: 0.5rem;
     text-align: left;
     line-height: 2;
+}
+
+.skills-container img:hover {
+    transform:translateY(-5px);
+}
+.skills-container img {
+    animation: materialize;
+    animation-duration: 0.3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;
+}
+.skills-container img:nth-child(1) {
+    animation: materialize;
+    animation-delay: 0.1s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;
+    animation-duration: 0.3s;
+}
+.skills-container img:nth-child(2) {
+    animation: materialize;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-duration: 0.3s;
+    animation-fill-mode: backwards;
+}
+.skills-container img:nth-child(3) {
+    animation: materialize;
+    animation-delay: 0.3s;
+    animation-duration: 0.3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;
+}
+.skills-container img:nth-child(4) {
+    animation: materialize;
+    animation-delay: 0.4s;
+    animation-duration: 0.3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;
+}
+.skills-container img:nth-child(5) {
+    animation: materialize;
+    animation-delay: 0.5s;
+    animation-duration: 0.3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;
+}
+.skills-container img:nth-child(6) {
+    animation: materialize;
+    animation-delay: 0.6s;
+    animation-duration: 0.3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;
+}
+.skills-container img:nth-child(7) {
+    animation: materialize;
+    animation-delay: 0.7s;
+    animation-duration: 0.3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;
+}
+.skills-container img:nth-child(8) {
+    animation: materialize;
+    animation-delay: 0.8s;
+    animation-duration: 0.3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes materialize {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+               
+      }
+      
+      to {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+
 }
