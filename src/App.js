@@ -3,9 +3,16 @@ import { useState } from "react";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
+import Resume from "./components/Resume/Resume";
 
 function App() {
-  const [links] = useState(["About", "Projects", "Contact", "Skills", "Resume"]);
+  const [links] = useState([
+    "About",
+    "Projects",
+    "Contact",
+    "Skills",
+    "Resume",
+  ]);
   const [activeNav, setActiveNav] = useState(links[0]);
   return (
     <div className="App">
@@ -13,6 +20,7 @@ function App() {
       <div className="site-container d-flex justify-content-center w-100">
         {activeNav === "Skills" && <Skills />}
         {activeNav === "About" && <About />}
+        {activeNav === "Resume" && <Resume />}
       </div>
     </div>
   );

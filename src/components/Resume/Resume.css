@@ -1,0 +1,29 @@
+.resume-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0rem;
+}
+
+.resume-icon {
+    width: 1.5rem;
+    margin: 0;
+}
+
+.resume-download {
+    cursor: pointer;
+    display: none;
+    font-weight: bold;
+    padding: 1rem 1.75rem!important;
+    color: black!important;
+    border: none!important;
+    background-color: #ccd5ae!important;
+}
+
+@media only screen and (max-width: 800px) {
+    iframe{
+        display: none;
+    }
+    .resume-download {
+        display: block!important;
+    }
+}
