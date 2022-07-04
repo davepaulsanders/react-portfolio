@@ -51,21 +51,15 @@ const Skills = () => {
   const handleSkillClick = (e) => {
     e.preventDefault();
     const index = e.target.getAttribute("data-index");
+    const container = document.querySelector("skills-extra-info");
+    const skillsText = document.querySelector("skills-text");
     setSkillText(skills[index]);
 
-    document.querySelector(".skills-text").classList.remove("text-appear");
-    document.querySelector(".skills-text").style.animationDelay = "0.5s";
-    setTimeout(
-      () => document.querySelector(".skills-text").classList.add("text-appear"),
-      1
-    );
-
-    document.querySelector(".skills-extra-info").classList.remove("wipe");
-    document.querySelector(".skills-extra-info").style.animationDelay = "0s";
-    setTimeout(
-      () => document.querySelector(".skills-extra-info").classList.add("wipe"),
-      1
-    );
+    container.classList.remove("wipe");
+    container.style.animationDelay = "0s";
+    setTimeout(() => container.classList.add("wipe"), 1);
+    skillsText.classList.remove("text-appear");
+    setTimeout(() => skillsText.classList.add("text-appear"), 3000);
   };
   return (
     <div className="skills-info d-flex justify-content-center align-items-center flex-column w-100">

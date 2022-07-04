@@ -36,8 +36,8 @@
 }
 
 .skills-extra-info {
-
     background-color: #ccd5ae;
+    /* this allows for new lines in a text string */
     white-space: pre-wrap;
     width: 100%;
 }
@@ -58,7 +58,7 @@
 
 .text-appear {
     animation: materialize ease-in 0.3s backwards;
-    animation-delay: 1.5s;
+    animation-delay: 5s;
 
 }
 .skills-container img:hover {

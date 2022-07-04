@@ -11,7 +11,11 @@ const Hero = () => {
         </h2>
       </div>
       <div className="about-pic-para justify-content-center align-items-center w-75">
-        <img src={smallHeadshot} alt="Dave Sanders Headshot" />
+        <img
+          className="headshot"
+          src={smallHeadshot}
+          alt="Dave Sanders Headshot"
+        />
         <div className="about-info w-100">
           <p>
             Full stack web developer applying orchestra training and university
