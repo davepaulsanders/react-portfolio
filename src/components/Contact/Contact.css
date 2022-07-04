@@ -1,0 +1,14 @@
+.contact-title {   
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    animation: materialize ease-in 0.3s backwards;
+}
+.contact-form {
+    margin-top: 2rem;
+    background-color: #ccd5ae;
+    border-radius: 5px;
+    width: 100%;
+    animation: materialize ease-in 0.3s backwards;
+    animation-delay: 0.1s;
+}

@@ -52,7 +52,7 @@ function Header(props) {
               return (
                 <li
                   key={link}
-                  className={link === activeNav && "active"}
+                  className={link === activeNav ? "active" : ""}
                   onClick={handleNavClick}
                 >
                   {link}

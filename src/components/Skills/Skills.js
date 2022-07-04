@@ -51,8 +51,8 @@ const Skills = () => {
   const handleSkillClick = (e) => {
     e.preventDefault();
     const index = e.target.getAttribute("data-index");
-    const container = document.querySelector("skills-extra-info");
-    const skillsText = document.querySelector("skills-text");
+    const container = document.querySelector(".skills-extra-info");
+    const skillsText = document.querySelector(".skills-text");
     setSkillText(skills[index]);
 
     container.classList.remove("wipe");

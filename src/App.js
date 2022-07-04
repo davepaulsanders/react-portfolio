@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Resume from "./components/Resume/Resume";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const [links] = useState([
@@ -21,6 +22,7 @@ function App() {
         {activeNav === "Skills" && <Skills />}
         {activeNav === "About" && <About />}
         {activeNav === "Resume" && <Resume />}
+        {activeNav === "Contact" && <Contact />}
       </div>
     </div>
   );
