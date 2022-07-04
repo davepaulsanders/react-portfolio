@@ -40,6 +40,9 @@
     background-color: #ccd5ae;
     white-space: pre-wrap;
     width: 100%;
+}
+
+.wipe {
     animation: wipedown ease-in-out 0.5s backwards;
     animation-delay: 1s;
     transform-origin: top;
@@ -50,10 +53,14 @@
     font-size: 1rem;
     text-align: left;
     line-height: 2;
-    animation: materialize ease-in 0.3s backwards;
-    animation-delay: 2s;
 }
 
+
+.text-appear {
+    animation: materialize ease-in 0.3s backwards;
+    animation-delay: 1.5s;
+
+}
 .skills-container img:hover {
     transform:translateY(-7px);
 }

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Skills.css";
 
-
 const Skills = () => {
   const skills = [
     "▹ Comfortable building React apps with hooks and state mananagement using Context",
@@ -53,6 +52,20 @@ const Skills = () => {
     e.preventDefault();
     const index = e.target.getAttribute("data-index");
     setSkillText(skills[index]);
+
+    document.querySelector(".skills-text").classList.remove("text-appear");
+    document.querySelector(".skills-text").style.animationDelay = "0.5s";
+    setTimeout(
+      () => document.querySelector(".skills-text").classList.add("text-appear"),
+      1
+    );
+
+    document.querySelector(".skills-extra-info").classList.remove("wipe");
+    document.querySelector(".skills-extra-info").style.animationDelay = "0s";
+    setTimeout(
+      () => document.querySelector(".skills-extra-info").classList.add("wipe"),
+      1
+    );
   };
   return (
     <div className="skills-info d-flex justify-content-center align-items-center flex-column w-100">
@@ -71,8 +84,8 @@ const Skills = () => {
           );
         })}
       </div>
-      <div className="skills-extra-info d-flex p-3">
-        <p className="skills-text">{skillText}</p>
+      <div className="skills-extra-info wipe d-flex p-3">
+        <p className="skills-text text-appear">{skillText}</p>
       </div>
     </div>
   );
