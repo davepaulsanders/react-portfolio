@@ -54,12 +54,12 @@ const Skills = () => {
     const container = document.querySelector(".skills-extra-info");
     const skillsText = document.querySelector(".skills-text");
     setSkillText(skills[index]);
-
+    
     container.classList.remove("wipe");
+    // Remove delay from initial page load
     container.style.animationDelay = "0s";
     setTimeout(() => container.classList.add("wipe"), 1);
-    skillsText.classList.remove("text-appear");
-    setTimeout(() => skillsText.classList.add("text-appear"), 3000);
+  
   };
   return (
     <div className="skills-info d-flex justify-content-center align-items-center flex-column w-100">

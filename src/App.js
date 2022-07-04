@@ -10,9 +10,9 @@ function App() {
   const [links] = useState([
     "About",
     "Projects",
-    "Contact",
     "Skills",
     "Resume",
+    "Contact"
   ]);
   const [activeNav, setActiveNav] = useState(links[0]);
   return (

@@ -31,7 +31,8 @@ function Header(props) {
     e.preventDefault();
     setActiveNav(e.target.textContent);
     setMenuStatus(false);
-    if (menuStatus === true)
+    // needs innerwidth in case resize event happened but nav wasn't toggled
+    if (menuStatus === true && window.innerWidth < 700)
     document.querySelector(".nav-links").style.display = "none";
   };
   return (
@@ -47,7 +48,7 @@ function Header(props) {
           className="hamburger fa-solid fa-bars fa-2xl"
         ></i>
         <div className="nav-links">
-          <ul className="d-flex list-unstyled">
+          <ul className="nav-ul d-flex list-unstyled">
             {links.map((link) => {
               return (
                 <li

@@ -35,6 +35,7 @@ li {
 @media only screen and (max-width: 700px) {
     nav {
         flex-direction: column;
+        
     }
 
     .site-title {
@@ -53,6 +54,10 @@ li {
         background-color: #ccd5ae;
         padding: 1rem 1.5rem;
         display: none;
+    }
+
+    .nav-ul {
+        align-items: center;
     }
     li {
         font-size: 2rem;

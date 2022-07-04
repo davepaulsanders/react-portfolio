@@ -53,12 +53,13 @@
     font-size: 1rem;
     text-align: left;
     line-height: 2;
+    opacity: 0;
 }
 
 
 .text-appear {
-    animation: materialize ease-in 0.3s backwards;
-    animation-delay: 5s;
+    animation: materialize ease-in 0.3s forwards;
+    animation-delay: 1.5s;
 
 }
 .skills-container img:hover {

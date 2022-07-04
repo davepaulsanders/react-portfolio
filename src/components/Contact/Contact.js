@@ -3,10 +3,9 @@ import "./Contact.css";
 
 const Contact = () => {
   const handleBlur = (e) => {
-    if (!e.target.textContent) {
-        e.target.nextSibling.textContent = "This field is required!"
+    if (!e.target.value) {
+      e.target.nextSibling.textContent = "This field is required!";
     }
-
   };
 
   const handleSubmit = (e) => {
@@ -36,8 +35,12 @@ const Contact = () => {
       <h2 className="contact-title">Contact</h2>
 
       <form
+        action="mailto:davepaulsanders@gmail.com"
+        method="POST"
+        encType="text/plain"
         className="contact-form p-4"
         id="contact-form"
+        name="contact-form"
         onSubmit={handleSubmit}
       >
         <div className="form-group">

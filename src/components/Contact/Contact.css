@@ -12,3 +12,9 @@
     animation: materialize ease-in 0.3s backwards;
     animation-delay: 0.1s;
 }
+
+@media only screen and (min-width: 700px) {
+    .contact-form {
+        width: 450px
+    }
+}
