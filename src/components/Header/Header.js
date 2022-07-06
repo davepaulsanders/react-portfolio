@@ -9,6 +9,7 @@ function Header(props) {
 
   const toggleMenu = (e) => {
     e.preventDefault();
+    document.querySelector(".nav-links").classList.add("nav-transition");
     if (!menuStatus) {
       document.querySelector(".nav-links").classList.add("nav-is-open");
     } else {
@@ -20,14 +21,14 @@ function Header(props) {
   window.addEventListener("resize", () => {
     setMenuStatus(false);
     document.querySelector(".nav-links").classList.remove("nav-is-open");
+    document.querySelector(".nav-links").classList.remove("nav-transition");
   });
 
   const handleNavClick = (e) => {
     e.preventDefault();
     setActiveNav(e.target.textContent);
     setMenuStatus(false);
-    // needs innerwidth in case resize event happened but nav wasn't toggled
-      document.querySelector(".nav-links").classList.remove("nav-is-open");
+    document.querySelector(".nav-links").classList.remove("nav-is-open");
   };
   return (
     <div>
