@@ -42,10 +42,10 @@ const Projects = () => {
   return (
     <div className="container">
       <h2 className="projects-title w-100 text-center">Projects</h2>
-      <div className="row m-1 projects-container">
+      <div className="row w-100 projects-container">
         {projects.map((project) => {
           return (
-            <div className="project-card card" key={project.title}>
+            <div className="project-card card col-12 col-md-4" key={project.title}>
               <img
                 className="card-img-top"
                 src={project.src}
@@ -55,7 +55,7 @@ const Projects = () => {
                 <p className="card-text single-project-title">
                   {project.title}
                 </p>
-                <p className="card-text">{project.description}</p>
+                <p className="card-text card-description">{project.description}</p>
               </div>
             </div>
           );

@@ -11,7 +11,7 @@
     background-color: var(--secondary)!important;
     cursor: pointer;
     padding: 0!important;
-    margin: 1rem 0;
+    margin: 1rem;
 }
 
 .project-card:hover {
@@ -79,4 +79,10 @@
 .projects-container div:nth-child(6){
     animation: materialize ease-in 1.6s backwards;
 
+}
+
+@media only screen and (min-width: 800px) {
+    .card-description {
+        font-size: 1rem;
+    }
 }

@@ -8,6 +8,7 @@ import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 
 function App() {
+
   const [links] = useState([
     "About",
     "Projects",
