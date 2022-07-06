@@ -9,22 +9,17 @@ function Header(props) {
 
   const toggleMenu = (e) => {
     e.preventDefault();
-    if (menuStatus) {
-      document.querySelector(".nav-links").style.display = "none";
+    if (!menuStatus) {
+      document.querySelector(".nav-links").classList.add("nav-is-open");
     } else {
-      document.querySelector(".nav-links").style.display = "block";
+      document.querySelector(".nav-links").classList.remove("nav-is-open");
     }
     setMenuStatus(!menuStatus);
   };
 
   window.addEventListener("resize", () => {
-    if (window.innerWidth > 700) {
-      document.querySelector(".nav-links").style.display = "block";
-      setMenuStatus(true);
-    } else {
-      setMenuStatus(false);
-      document.querySelector(".nav-links").style.display = "none";
-    }
+    setMenuStatus(false);
+    document.querySelector(".nav-links").classList.remove("nav-is-open");
   });
 
   const handleNavClick = (e) => {
@@ -32,8 +27,7 @@ function Header(props) {
     setActiveNav(e.target.textContent);
     setMenuStatus(false);
     // needs innerwidth in case resize event happened but nav wasn't toggled
-    if (menuStatus === true && window.innerWidth < 700)
-    document.querySelector(".nav-links").style.display = "none";
+      document.querySelector(".nav-links").classList.remove("nav-is-open");
   };
   return (
     <div>
