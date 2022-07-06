@@ -8,7 +8,7 @@
     margin-top: 2rem;
     background-color: var(--secondary);
     border-radius: 5px;
-    width: 100%;
+    width: 90%;
     animation: materialize ease-in 0.3s backwards;
     animation-delay: 0.1s;
 }

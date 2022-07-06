@@ -9,9 +9,9 @@
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in;
     position: relative;
     background-color: var(--secondary)!important;
-    animation: materialize 0.5s 0.1s backwards;
     cursor: pointer;
     padding: 0!important;
+    margin: 1rem 0;
 }
 
 .project-card:hover {
@@ -27,7 +27,9 @@
     visibility: visible;
     
 }
-
+.project-card img {
+    height: 12rem;
+}
 .project-card:hover img {
     opacity: 0.4;
 }
@@ -47,4 +49,34 @@
     top: 50%;
     margin-left: -50px;
     margin-top: -25px;
+}
+
+.single-project-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.projects-container div:nth-child(1){
+    animation: materialize ease-in 0.6s backwards;
+
+}
+.projects-container div:nth-child(2){
+    animation: materialize ease-in 0.8s backwards;
+
+}
+.projects-container div:nth-child(3){
+    animation: materialize ease-in 1s backwards;
+
+}
+.projects-container div:nth-child(4){
+    animation: materialize ease-in 1.2s backwards;
+
+}
+.projects-container div:nth-child(5){
+    animation: materialize ease-in 1.4s backwards;
+
+}
+.projects-container div:nth-child(6){
+    animation: materialize ease-in 1.6s backwards;
+
 }

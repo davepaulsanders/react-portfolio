@@ -38,7 +38,7 @@ const Contact = () => {
         action="mailto:davepaulsanders@gmail.com"
         method="POST"
         encType="text/plain"
-        className="contact-form p-4"
+        className="contact-form py-4 px-3"
         id="contact-form"
         name="contact-form"
         onSubmit={handleSubmit}
