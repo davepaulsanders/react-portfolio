@@ -12,24 +12,20 @@ function Header(props) {
     document.querySelector(".nav-links").classList.add("nav-transition");
     if (!menuStatus) {
       document.querySelector(".nav-links").classList.add("nav-is-open");
-      document.body.style.overflowY = "hidden";
     } else {
       document.querySelector(".nav-links").classList.remove("nav-is-open");
-      document.body.style.overflowY = "scroll";
     }
     setMenuStatus(!menuStatus);
   };
 
   window.addEventListener("resize", () => {
     setMenuStatus(false);
-    document.body.style.overflowY = "scroll";
     document.querySelector(".nav-links").classList.remove("nav-is-open");
     document.querySelector(".nav-links").classList.remove("nav-transition");
   });
 
   const handleNavClick = (e) => {
     e.preventDefault();
-    document.body.style.overflowY = "scroll";
     setActiveNav(e.target.textContent);
     setMenuStatus(false);
     document.querySelector(".nav-links").classList.remove("nav-is-open");
