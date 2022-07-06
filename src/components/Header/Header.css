@@ -17,8 +17,8 @@ nav {
     z-index: 100;
 }
 .active{
-    color: white;
-    background-color: #d4a373;
+    color: #fff;
+    background-color: var(--third);
 }
 
 li {
@@ -51,7 +51,7 @@ li {
         top: 5.5rem;
         right: 0;
         position: absolute;
-        background-color: #ccd5ae;
+        background-color: var(--secondary);
         padding: 1rem 1.5rem;
         display: none;
     }

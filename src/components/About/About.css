@@ -54,7 +54,7 @@
     animation: materialize ease-in 0.3s backwards;
     animation-delay: 0.3s;
 }
-p {
+.about-info p {
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.75rem;

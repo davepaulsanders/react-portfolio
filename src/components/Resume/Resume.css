@@ -2,6 +2,7 @@
     font-size: 2rem;
     font-weight: bold;
     margin: 2rem 0rem;
+    animation: materialize 0.3s ease-in-out;
 }
 
 .resume-icon {
@@ -16,7 +17,7 @@
     padding: 1rem 1.75rem!important;
     color: black!important;
     border: none!important;
-    background-color: #ccd5ae!important;
+    background-color:var(--secondary)!important;
 }
 
 @media only screen and (max-width: 800px) {

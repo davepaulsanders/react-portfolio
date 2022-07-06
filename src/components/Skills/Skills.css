@@ -36,7 +36,7 @@
 }
 
 .skills-extra-info {
-    background-color: #ccd5ae;
+    background-color: var(--secondary);
     /* this allows for new lines in a text string */
     white-space: pre-wrap;
     width: 100%;

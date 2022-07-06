@@ -1,8 +1,14 @@
+:root {
+  --main-bg: #ffcb77;
+  --secondary: #17c3b2;
+  --third: #fe6d73;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#faedcd!important;
+  background-color:var(--main-bg)!important;
   font-family: "Lora", sans-serif!important;
 }
 

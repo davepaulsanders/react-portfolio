@@ -1,0 +1,50 @@
+.projects-title {
+    font-size: 2rem;
+    font-weight: bold;
+    animation: materialize ease-in 0.3s backwards;
+    margin: 2rem 0rem;
+}
+
+.project-card {
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in;
+    position: relative;
+    background-color: var(--secondary)!important;
+    animation: materialize 0.5s 0.1s backwards;
+    cursor: pointer;
+    padding: 0!important;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    opacity: 0.9;
+    z-index: 100;
+    background-color: #000!important;
+    color: white;
+}
+
+.project-card:hover::before {
+    visibility: visible;
+    
+}
+
+.project-card:hover img {
+    opacity: 0.4;
+}
+.project-card::before {
+    transition: visibility 0.1s ease-in;
+    visibility: hidden;
+    content: "Visit";
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    z-index: 100 ;
+    position: absolute;
+    background-color: var(--third);
+    padding: 0.5rem 1rem;
+    color: #000;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -25px;
+}
