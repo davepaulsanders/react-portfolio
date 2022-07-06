@@ -12,20 +12,24 @@ function Header(props) {
     document.querySelector(".nav-links").classList.add("nav-transition");
     if (!menuStatus) {
       document.querySelector(".nav-links").classList.add("nav-is-open");
+      document.body.style.overflow = "hidden";
     } else {
       document.querySelector(".nav-links").classList.remove("nav-is-open");
+      document.body.style.overflow = "scroll";
     }
     setMenuStatus(!menuStatus);
   };
 
   window.addEventListener("resize", () => {
     setMenuStatus(false);
+    document.body.style.overflow = "scroll";
     document.querySelector(".nav-links").classList.remove("nav-is-open");
     document.querySelector(".nav-links").classList.remove("nav-transition");
   });
 
   const handleNavClick = (e) => {
     e.preventDefault();
+    document.body.style.overflow = "scroll";
     setActiveNav(e.target.textContent);
     setMenuStatus(false);
     document.querySelector(".nav-links").classList.remove("nav-is-open");
