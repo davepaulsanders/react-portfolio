@@ -5,6 +5,11 @@ ul {
     padding: 1rem 2rem;
     font-size: 1.25rem;
 }
+nav ul li:hover {
+    color: #fff;
+    background-color: var(--third);
+    transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 nav {
     padding: 0.75rem;
 }
