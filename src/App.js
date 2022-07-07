@@ -9,12 +9,13 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 
 function App() {
+
   const [links] = useState([
     "About",
     "Projects",
     "Skills",
     "Resume",
-    "Contact",
+    "Contact"
   ]);
   const [activeNav, setActiveNav] = useState(links[0]);
   return (

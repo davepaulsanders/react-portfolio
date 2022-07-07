@@ -12,7 +12,7 @@
 .skills-container {
     display: flex;
     width: 100%;
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 0.4rem 0 1.4rem 0;
     flex-wrap: nowrap;
     overflow-x: auto;
 }
@@ -40,6 +40,7 @@
     /* this allows for new lines in a text string */
     white-space: pre-wrap;
     width: 100%;
+    border-radius: 5px;
 }
 
 .wipe {
@@ -60,6 +61,11 @@
 .text-appear {
     animation: materialize ease-in 0.3s forwards;
     animation-delay: 1.5s;
+
+}
+.text-appear-2 {
+    animation: materialize ease-in 0.3s forwards;
+    animation-delay: 0.5s;
 
 }
 .skills-container img:hover {
@@ -106,6 +112,11 @@
 .skills-container img:nth-child(8) {
     animation: materialize ease-in 0.3s backwards;
     animation-delay: 0.8s;
+    
+}
+.skills-container img:nth-child(9) {
+    animation: materialize ease-in 0.3s backwards;
+    animation-delay: 0.9s;
     
 }
 

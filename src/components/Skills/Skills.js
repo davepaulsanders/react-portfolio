@@ -3,8 +3,15 @@ import "./Skills.css";
 
 const Skills = () => {
   const skills = [
-    "▹ Comfortable building React apps with hooks and state mananagement using Context",
-    "▹ Building back end applications and routing through node\n\n▹ This is the second one",
+    "• Developing front end applications\n• Using JWT in the front end for authentication",
+    "• Using express in collaberation with Node to serve webpages and databases\n• Dynamically writing HTML files from CLI prompts",
+    "• Creating servers using express sessiona dn cookies for authentication\n• Deploying express servers with Heroku",
+    "• Building back end using Mongoose ODM\n• Deploying with MongoDB Atlas",
+    "• Implementing relation databases\n• Building back end using Sequelize ORM",
+    "• Building an API with typeDefs and resolvers\n• Using Apollo to communicate with Graphql on the front end",
+    "• Building custom components with utility classes",
+    "• Building sites using Bootstrap components and validations\n• Bootstrap grid",
+    "• Using git versioning system\n• Collaborating with multiple developers in a repo",
   ];
   const [skillText, setSkillText] = useState(skills[0]);
 
@@ -34,6 +41,11 @@ const Skills = () => {
     },
     {
       src:
+        "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
+      name: "graphql",
+    },
+    {
+      src:
         "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
       name: "tailwind",
     },
@@ -54,12 +66,15 @@ const Skills = () => {
     const container = document.querySelector(".skills-extra-info");
     const skillsText = document.querySelector(".skills-text");
     setSkillText(skills[index]);
-    
+
     container.classList.remove("wipe");
+    skillsText.classList.remove("text-appear");
+    skillsText.classList.remove("text-appear-2");
     // Remove delay from initial page load
     container.style.animationDelay = "0s";
     setTimeout(() => container.classList.add("wipe"), 1);
-  
+    skillsText.animationDelay = "0s";
+    setTimeout(() => skillsText.classList.add("text-appear-2"), 1);
   };
   return (
     <div className="skills-info d-flex justify-content-center align-items-center flex-column w-100">
