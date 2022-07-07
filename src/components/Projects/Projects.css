@@ -13,7 +13,6 @@
     padding: 0!important;
     margin-bottom: 1rem;
     grid-column: 1 / span 12;
-    margin-top: 2rem;
 }
 
 .project-card:hover {
@@ -34,6 +33,14 @@
 }
 .project-card:hover img {
     opacity: 0.4;
+}
+.card-body {
+    height: auto;
+    padding: 0.75rem 1rem!important;
+}
+
+.card-body p {
+    line-height: 1.5;
 }
 .project-card::before {
     transition: visibility 0.1s ease-in;
@@ -96,6 +103,7 @@
 .projects-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    padding-top: 2rem;
 }
 
 /* GRID FOR PROJECT CARDS */
@@ -110,7 +118,9 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    
+    .project-card img {
+        height: 15rem;
+    }
     .project-card:nth-child(3n){
         grid-column: 9 / span 4;
     }
