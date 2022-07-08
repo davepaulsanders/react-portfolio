@@ -6,7 +6,7 @@ const Resume = () => {
     <div className="d-flex flex-column justify-content-center align-items-center">
       <h2 className="resume-title text-center">Resume</h2>
       <button
-        className="resume-link btn btn-primary"
+        className="resume-link d-block btn btn-primary"
         onClick={() =>
           (window.location.href =
             "https://drive.google.com/file/d/11O3VWVLkBoGccaZNRg5fWTp6dISA-pvD/view?usp=sharing")
