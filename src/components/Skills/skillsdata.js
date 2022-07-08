@@ -1,13 +1,13 @@
 export const skills = [
-  "• Developing front end applications\n• Using JWT in the front end for authentication",
-  "• Using express in collaberation with Node to serve webpages and databases\n• Dynamically writing HTML files from CLI prompts",
-  "• Creating servers using express session and cookies for authentication\n• Deploying express servers with Heroku",
-  "• Building back end using Mongoose ODM\n• Deploying with MongoDB Atlas",
-  "• Implementing relation databases\n• Building back end using Sequelize ORM",
-  "• Building an API with typeDefs and resolvers\n• Using Apollo to communicate with Graphql on the front end",
-  "• Building custom components with utility classes",
+  "• Developing SPAs with routing and state management\n• Using JWT in the front end for authentication",
+  "• Using Node to serve webpages\n• Dynamically writing HTML files from CLI prompts",
+  "• Creating servers using express sessions with cookies for authentication\n• Deploying express servers with Heroku",
+  "• Architecting databases using Mongoose ODM\n• Deploying with MongoDB Atlas",
+  "• Implementing relational databases\n• Constructing back end using Sequelize ORM",
+  "• Designing an API with typeDefs and resolvers\n• Using Apollo to communicate with Graphql on the front end",
+  "• Creating custom components with utility classes",
   "• Building sites using Bootstrap components and validations\n• Bootstrap grid",
-  "• Using git versioning system\n• Collaborating with multiple developers in a repo",
+  "• Git versioning system\n• Collaborating with multiple developers inside a repo",
 ];
 
 export const skillsImages = [

@@ -7,7 +7,13 @@
     padding-bottom: 1rem;
     border-bottom: 1px solid black;
 }
-
+.skills-text {
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 2.4;
+    opacity: 0;
+}
 .skills-info {
     margin-top: 2rem;
 }
@@ -58,15 +64,6 @@
     animation-delay: 1s;
     transform-origin: top;
 }
-
-.skills-text {
-    padding-left: 0.5rem;
-    font-size: 1rem;
-    text-align: left;
-    line-height: 2;
-    opacity: 0;
-}
-
 
 .text-appear {
     animation: materialize ease-in 0.3s forwards;
