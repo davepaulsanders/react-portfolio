@@ -30,12 +30,12 @@ function Header(props) {
     setMenuStatus(false);
     document.querySelector(".nav-links").classList.remove("nav-is-open");
   };
-  
+
   return (
     <div>
       <nav className="w-100 d-flex justify-content-between align-items-center">
         <h1 className="site-title no-wrap">
-          <a className="text-decoration-none text-black" href="/">
+          <a className="text-decoration-none text-black" href="https://davepaulsanders.github.io/react-portfolio/">
             Dave Sanders
           </a>
         </h1>
