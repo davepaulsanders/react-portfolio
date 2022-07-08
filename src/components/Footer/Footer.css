@@ -4,13 +4,20 @@
 }
 .footer img {
     margin: 1rem 0.5rem 1rem 0;
-    width: 1.5rem;
+    width: 1.15rem;
     cursor: pointer;
 }
 
 .footer p {
-    font-size: 1rem;
+    font-size: 0.85rem;
     margin: 0 0.5rem 0 0;
-    font-weight: bold;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .footer img {
+        width: 1.8rem;
+        
+    }
 }
 
