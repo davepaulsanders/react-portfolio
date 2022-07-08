@@ -30,6 +30,7 @@ function Header(props) {
     setMenuStatus(false);
     document.querySelector(".nav-links").classList.remove("nav-is-open");
   };
+  
   return (
     <div>
       <nav className="w-100 d-flex justify-content-between align-items-center">
