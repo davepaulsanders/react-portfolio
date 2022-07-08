@@ -8,7 +8,7 @@
 .project-card {
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in;
     position: relative;
-    background-color: var(--secondary)!important;
+    background-color: rgba(23, 195, 178, 1)!important;
     cursor: pointer;
     padding: 0!important;
     margin-bottom: 1rem;
@@ -18,21 +18,20 @@
 .project-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    opacity: 0.9;
     z-index: 100;
-    background-color: #000!important;
+    background-color: rgba(0,0,0,0.9)!important;
     color: white;
 }
 
-.project-card:hover::before {
+.project-card:hover .link-to-site {
     visibility: visible;
     
 }
-.project-card img {
+.project-card .card-img-top {
     height: 12rem;
 }
-.project-card:hover img {
-    opacity: 0.4;
+.project-card:hover .card-img-top {
+    opacity: 0.3;
 }
 .card-body {
     height: auto;
@@ -42,22 +41,38 @@
 .card-body p {
     line-height: 1.5;
 }
-.project-card::before {
-    transition: visibility 0.1s ease-in;
-    visibility: hidden;
-    content: "Visit";
-    text-align: center;
-    width: 100px;
-    border-radius: 5px;
-    z-index: 100 ;
+.link-to-site {
     position: absolute;
-    background-color: var(--third);
-    padding: 0.5rem 1rem;
-    color: #000;
-    left: 50%;
     top: 50%;
-    margin-left: -50px;
-    margin-top: -25px;
+    left: 50%;
+    margin-left: -95px;
+    margin-top: -100px;
+    color: white;
+    z-index: 1000;
+    visibility: hidden;
+    
+}
+
+.link-to-site .link-images {
+    height: 4rem;
+    width: 4rem;
+    color: rgba(255, 255, 255, 1.0)!important;
+    z-index: 1000;
+    margin: 0.5rem; 
+}
+.link-to-site a {
+    text-decoration: none!important;
+    color: white;
+}
+.link-to-site a:hover {
+    text-decoration: none!important;
+    color: white;
+}
+.link-images-no-live {
+    margin-left: 55px!important;
+}
+.link-to-site .link-images:hover {
+    transform: scale(1.1);
 }
 
 .single-project-title {
