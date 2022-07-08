@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "ee676efce4931849e970",
-    "url": "/react-portfolio/static/css/main.8e3b6f54.chunk.css"
+    "revision": "d04c925a727679eed531",
+    "url": "/react-portfolio/static/css/main.6145b884.chunk.css"
   },
   {
-    "revision": "ee676efce4931849e970",
-    "url": "/react-portfolio/static/js/main.ee676efc.chunk.js"
+    "revision": "d04c925a727679eed531",
+    "url": "/react-portfolio/static/js/main.d04c925a.chunk.js"
   },
   {
-    "revision": "98fae294dabfb7543782",
-    "url": "/react-portfolio/static/js/1.98fae294.chunk.js"
+    "revision": "2d3efeb71c7eebfe7cd0",
+    "url": "/react-portfolio/static/js/1.2d3efeb7.chunk.js"
   },
   {
-    "revision": "e721351d54e67753c356",
-    "url": "/react-portfolio/static/css/2.94d66bfc.chunk.css"
+    "revision": "b64d010f46600bc1beb5",
+    "url": "/react-portfolio/static/css/2.1f2bd901.chunk.css"
   },
   {
-    "revision": "e721351d54e67753c356",
-    "url": "/react-portfolio/static/js/2.e721351d.chunk.js"
+    "revision": "b64d010f46600bc1beb5",
+    "url": "/react-portfolio/static/js/2.b64d010f.chunk.js"
   },
   {
-    "revision": "fb8d19f71ffd14d5e37a",
-    "url": "/react-portfolio/static/js/runtime~main.fb8d19f7.js"
+    "revision": "9338963966fbdc171994",
+    "url": "/react-portfolio/static/js/runtime~main.93389639.js"
   },
   {
     "revision": "88671dc1cd401060dcdcece9ead0a8a0",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/weather-dashboard.7d7e6ec1.png"
   },
   {
-    "revision": "63cf2db1b567321445951f439baf6e75",
+    "revision": "b83c33bc89a5962d649b3a63da138e40",
     "url": "/react-portfolio/index.html"
   }
 ];
