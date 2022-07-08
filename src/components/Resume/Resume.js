@@ -7,10 +7,8 @@ const Resume = () => {
       <h2 className="resume-title text-center">Resume</h2>
       <button
         className="resume-link btn btn-primary"
-        onClick={() =>
-          (window.location.href =
-            "https://drive.google.com/file/d/11O3VWVLkBoGccaZNRg5fWTp6dISA-pvD/view?usp=sharing")
-        }
+        onClick="
+          window.open('https://drive.google.com/file/d/11O3VWVLkBoGccaZNRg5fWTp6dISA-pvD/view?usp=sharing`)"
       >
         Download <img className="resume-icon" src={resume} alt="resume" />
       </button>
