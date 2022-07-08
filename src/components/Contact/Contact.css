@@ -6,6 +6,7 @@
 }
 .contact-form {
     margin-top: 2rem;
+    padding: 1rem!important;
     background-color: var(--secondary);
     border-radius: 5px;
     width: 90%;

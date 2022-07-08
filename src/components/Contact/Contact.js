@@ -15,18 +15,22 @@ const Contact = () => {
     const messageForm = new FormData(form);
     const entries = messageForm.entries();
     const data = Object.fromEntries(entries);
-
-    if (!data.name) {
+    const { name, email, message } = data;
+    if (!name) {
       document.querySelector("#nameHelp").textContent =
         "Please provide a name!";
     }
-    if (!data.email) {
+    if (!email) {
       document.querySelector("#emailHelp").textContent =
         "Please provide an email!";
     }
-    if (!data.message) {
+    if (!message) {
       document.querySelector("#messageHelp").textContent =
         "Please include a message!";
+    }
+    const mailToLink = `mailto:davepaulsanders@gmail.com?body=${message}`;
+    if ((name, email, message)) {
+      window.open(mailToLink, "emailWindow");
     }
   };
 
@@ -38,7 +42,7 @@ const Contact = () => {
         action="mailto:davepaulsanders@gmail.com"
         method="POST"
         encType="text/plain"
-        className="contact-form py-4 px-3"
+        className="contact-form"
         id="contact-form"
         name="contact-form"
         onSubmit={handleSubmit}
