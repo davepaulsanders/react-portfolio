@@ -6,6 +6,14 @@ const www = require("../../assets/www.png");
 const Projects = () => {
   const projects = [
     {
+      id: "gigSocial",
+      title: "gigSocial",
+      src: require("../../assets/gigSocial.png"),
+      description: "An app to help musicians organize their live sets",
+      github: "https://github.com/davepaulsanders/gigSocial",
+      liveSite: "https://gigsocial.herokuapp.com/",
+    },
+    {
       id: "tech-nically",
       title: "Tech-nically",
       src: require("../../assets/tech-nically.png"),
