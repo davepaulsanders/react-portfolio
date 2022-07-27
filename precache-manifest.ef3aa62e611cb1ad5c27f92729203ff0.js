@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "12c1f094f04311404de0",
-    "url": "/react-portfolio/static/css/main.d3eae944.chunk.css"
+    "revision": "5cd21272680b234e5fcb",
+    "url": "/react-portfolio/static/css/main.cb8cfab6.chunk.css"
   },
   {
-    "revision": "12c1f094f04311404de0",
-    "url": "/react-portfolio/static/js/main.12c1f094.chunk.js"
+    "revision": "5cd21272680b234e5fcb",
+    "url": "/react-portfolio/static/js/main.5cd21272.chunk.js"
   },
   {
-    "revision": "98fae294dabfb7543782",
-    "url": "/react-portfolio/static/js/1.98fae294.chunk.js"
+    "revision": "dc2c6ecaabfff3523052",
+    "url": "/react-portfolio/static/js/1.dc2c6eca.chunk.js"
   },
   {
-    "revision": "e721351d54e67753c356",
-    "url": "/react-portfolio/static/css/2.94d66bfc.chunk.css"
+    "revision": "2fcc497ee88dd5c23d9e",
+    "url": "/react-portfolio/static/css/2.11a1bdd7.chunk.css"
   },
   {
-    "revision": "e721351d54e67753c356",
-    "url": "/react-portfolio/static/js/2.e721351d.chunk.js"
+    "revision": "2fcc497ee88dd5c23d9e",
+    "url": "/react-portfolio/static/js/2.2fcc497e.chunk.js"
   },
   {
-    "revision": "fb8d19f71ffd14d5e37a",
-    "url": "/react-portfolio/static/js/runtime~main.fb8d19f7.js"
+    "revision": "7fca368856d630e0b3e5",
+    "url": "/react-portfolio/static/js/runtime~main.7fca3688.js"
   },
   {
     "revision": "88671dc1cd401060dcdcece9ead0a8a0",
@@ -30,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "bbedc41f556bbf801c3c11f71f80d603",
     "url": "/react-portfolio/static/media/github.bbedc41f.png"
+  },
+  {
+    "revision": "b8d0160798615402ae7fa5a14fd1c955",
+    "url": "/react-portfolio/static/media/gigSocial.b8d01607.png"
   },
   {
     "revision": "b9ca1060b4c73b08ca8a41227d4a0939",
@@ -56,7 +60,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/weather-dashboard.7d7e6ec1.png"
   },
   {
-    "revision": "9ce346de4c01312b9deb37d6af2f5598",
+    "revision": "0910f55e483343b6e34e48ee09219de2",
     "url": "/react-portfolio/index.html"
   }
 ];
