@@ -12,6 +12,7 @@
     width: 90%;
     animation: materialize ease-in 0.3s backwards;
     animation-delay: 0.1s;
+    color: white;
 }
 
 @media only screen and (min-width: 700px) {

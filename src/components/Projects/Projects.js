@@ -81,7 +81,13 @@ const Projects = () => {
                 src={project.src}
                 alt={project.title}
               />
-              <div className="card-body">
+              <div
+                className={
+                  project.liveSite
+                    ? "card-body"
+                    : "card-body adjusted-for-no-live"
+                }
+              >
                 <p className="card-text single-project-title">
                   {project.title}
                 </p>

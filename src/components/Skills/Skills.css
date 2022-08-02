@@ -25,6 +25,7 @@
     margin-bottom: 0;
     margin: 0rem 0.5rem;
     cursor: pointer;
+    border-bottom: 4px solid var(--third);
 }
 
 .skill-icons {
@@ -38,7 +39,7 @@
 .skills-container {
     display: flex;
     width: 100%;
-    padding: 1rem 2rem 1.4rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     flex-wrap: nowrap;
     overflow-x: auto;
 }
@@ -51,7 +52,10 @@
     height: 20rem;
     box-shadow: 0 3px 5px rgba(0,0,0, 0.1);
 }
-
+.skill-selection {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 @media only screen and (min-width: 800px) {
     .skills-container {
         justify-content: center;
@@ -60,11 +64,18 @@
         width: 60%!important;
         height: 10rem;
     }
+    .skills-text {
+        font-size: 1rem!important;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
     .skills-extra-info {
         width: 40%!important;
+        
+    }
+    .skills-text {
+        font-size: 1.2rem!important;
     }
 }
 /* Animations for page */
@@ -72,6 +83,11 @@
 .wipe {
     animation: wipedown ease-in-out 0.5s backwards;
     animation-delay: 1s;
+    transform-origin: top;
+}
+.wipe2 {
+    animation: wipedown ease-in-out 0.5s backwards;
+    animation-delay: 2s;
     transform-origin: top;
 }
 

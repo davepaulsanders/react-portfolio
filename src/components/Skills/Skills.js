@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Skills.css";
 const { skills, skillsImages } = require("./skillsdata");
-
 const Skills = () => {
   const [skillText, setSkillText] = useState(skills[0]);
   const [activeSkill, setActiveSkill] = useState(skillsImages[0]);
@@ -31,9 +30,7 @@ const Skills = () => {
           return (
             <img
               className={
-                skill.name === activeSkill.name
-                  ? "active-skill"
-                  : "skill-icons"
+                skill.name === activeSkill.name ? "active-skill" : "skill-icons"
               }
               src={skill.src}
               alt={skill.name}
@@ -44,6 +41,7 @@ const Skills = () => {
           );
         })}
       </div>
+      <p className="skill-selection wipe2 align-self-start ms-4 mb-1">{activeSkill.name}</p>
       <div className="skills-extra-info wipe d-flex p-3">
         <p className="skills-text text-appear">{skillText}</p>
       </div>

@@ -13,41 +13,41 @@ export const skills = [
 export const skillsImages = [
   {
     src: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-    name: "react",
+    name: "React",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
-    name: "node",
+    name: "Node",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
-    name: "express",
+    name: "Express",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
-    name: "mongo",
+    name: "Mongo",
   },
   {
     src:
       "https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg",
-    name: "mysql",
+    name: "MySQL",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
-    name: "graphql",
+    name: "GraphQL",
   },
   {
     src:
       "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
-    name: "tailwind",
+    name: "Tailwind",
   },
   {
     src:
       "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
-    name: "bootstrap",
+    name: "Bootstrap",
   },
   {
     src: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
-    name: "git",
+    name: "Git",
   },
 ];

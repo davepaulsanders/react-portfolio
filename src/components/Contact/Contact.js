@@ -51,7 +51,7 @@ const Contact = () => {
           <label htmlFor="name">Name</label>
           <input
             type="name"
-            className="form-control"
+            className="form-control mb-2"
             id="name"
             placeholder="Name"
             aria-describedby="nameHelp"
@@ -64,7 +64,7 @@ const Contact = () => {
           <label htmlFor="email">Email address</label>
           <input
             type="email"
-            className="form-control"
+            className="form-control  mb-2"
             id="email"
             aria-describedby="emailHelp"
             placeholder="Enter email"

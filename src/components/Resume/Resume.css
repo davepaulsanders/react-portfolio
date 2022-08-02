@@ -15,9 +15,7 @@
     width: 10rem;
     cursor: pointer;
     display: none;
-    font-weight: bold;
     padding: 0.75rem 0.75rem!important;
-    color: black!important;
     border: none!important;
     background-color:var(--secondary)!important;
     animation: materialize ease-in 0.6s backwards;

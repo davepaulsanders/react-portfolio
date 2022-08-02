@@ -116,24 +116,29 @@
 
 }
 
-@media only screen and (min-width: 800px) {
-    .project-card {
-        margin-left: 0.25rem;
-        margin-right: 0.25rem;
-    }
-    .card-description {
-        font-size: 1rem;
-    }
-}
-
 .projects-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     padding-top: 2rem;
+    
 }
 
 /* GRID FOR PROJECT CARDS */
 @media only screen and (min-width: 800px) {
+    .project-card {
+        height: 15rem;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+    }
+    .adjusted-for-no-live {
+        top: -15px;
+    }
+    .card-description {
+        font-size: 1rem;
+    }
+    .link-to-site {
+        top: 25px;
+    }
     .project-card:nth-child(even) {
         grid-column: 7 / span 6;
     }
@@ -142,11 +147,23 @@
     }
 
 }
-
+@media only screen and (min-width: 1000px) {
+    .project-card {
+        height: 16rem;
+    }
+    .link-to-site {
+        top: 15px;
+    }
+    .adjusted-for-no-live {
+        top: 0px;
+    }
+}
 @media only screen and (min-width: 1200px) {
+    
     .project-card img {
         height: 15rem;
     }
+    
     .project-card:nth-child(3n){
         grid-column: 9 / span 4;
     }

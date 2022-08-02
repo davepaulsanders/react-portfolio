@@ -59,6 +59,7 @@ li {
         background-color: var(--secondary);
         padding: 1rem 1.5rem;
         z-index: 100;
+        color: white;
     }
 
     .nav-is-open {
