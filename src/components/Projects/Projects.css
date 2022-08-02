@@ -15,7 +15,7 @@
     grid-column: 1 / span 12;
     color: whitesmoke;
     overflow: hidden;
-    height: 16rem;
+    height: 16rem!important;
 }
 
 .project-card:hover {
@@ -126,7 +126,7 @@
 /* GRID FOR PROJECT CARDS */
 @media only screen and (min-width: 800px) {
     .project-card {
-        height: 15rem;
+        height: 15rem!important;
         margin-left: 0.25rem;
         margin-right: 0.25rem;
     }
@@ -149,7 +149,7 @@
 }
 @media only screen and (min-width: 1000px) {
     .project-card {
-        height: 16rem;
+        height: 16rem!important;
     }
     .link-to-site {
         top: 15px;
