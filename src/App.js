@@ -28,7 +28,7 @@ function App() {
         />
         <div className="site-container d-flex justify-content-center w-100">
           <Routes>
-            <Route path="/" element={<About />} />
+            <Route path="/react-portfolio" element={<About />} />
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
