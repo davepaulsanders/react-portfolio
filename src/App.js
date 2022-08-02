@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [links] = useState([
-    { page: "About", link: "/" },
+    { page: "About", link: "/about" },
     { page: "Projects", link: "/projects" },
     { page: "Skills", link: "/skills" },
     { page: "Resume", link: "/resume" },
