@@ -9,9 +9,10 @@
 }
 .skills-text {
     padding-left: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
     text-align: left;
-    line-height: 2.4;
+    line-height: 2;
     opacity: 0;
 }
 .skills-info {
@@ -37,16 +38,18 @@
 .skills-container {
     display: flex;
     width: 100%;
-    padding: 0.4rem 2rem 1.4rem 2rem;
+    padding: 1rem 2rem 1.4rem 2rem;
     flex-wrap: nowrap;
     overflow-x: auto;
 }
 .skills-extra-info {
-    background-color: var(--secondary);
+    background-color: #fcfcfc;
     /* this allows for new lines in a text string */
     white-space: pre-wrap;
     width: 95%;
     border-radius: 5px;
+    height: 20rem;
+    box-shadow: 0 3px 5px rgba(0,0,0, 0.1);
 }
 
 @media only screen and (min-width: 800px) {
@@ -55,6 +58,13 @@
     }
     .skills-extra-info {
         width: 60%!important;
+        height: 10rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .skills-extra-info {
+        width: 40%!important;
     }
 }
 /* Animations for page */
