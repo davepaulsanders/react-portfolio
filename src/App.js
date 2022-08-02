@@ -7,29 +7,37 @@ import Resume from "./components/Resume/Resume";
 import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-
   const [links] = useState([
-    "About",
-    "Projects",
-    "Skills",
-    "Resume",
-    "Contact"
+    { page: "About", link: "/" },
+    { page: "Projects", link: "/projects" },
+    { page: "Skills", link: "/skills" },
+    { page: "Resume", link: "/resume" },
+    { page: "Contact", link: "/contact" },
   ]);
   const [activeNav, setActiveNav] = useState(links[0]);
   return (
-    <div className="App">
-      <Header links={links} activeNav={activeNav} setActiveNav={setActiveNav} />
-      <div className="site-container d-flex justify-content-center w-100">
-        {activeNav === "Skills" && <Skills />}
-        {activeNav === "About" && <About />}
-        {activeNav === "Resume" && <Resume />}
-        {activeNav === "Contact" && <Contact />}
-        {activeNav === "Projects" && <Projects />}
+    <Router>
+      <div className="App">
+        <Header
+          links={links}
+          activeNav={activeNav}
+          setActiveNav={setActiveNav}
+        />
+        <div className="site-container d-flex justify-content-center w-100">
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </Router>
   );
 }
 

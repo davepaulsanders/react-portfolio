@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header(props) {
@@ -35,7 +35,10 @@ function Header(props) {
     <div>
       <nav className="w-100 d-flex justify-content-between align-items-center">
         <h1 className="site-title no-wrap">
-          <a className="text-decoration-none text-black" href="https://davepaulsanders.github.io/react-portfolio/">
+          <a
+            className="text-decoration-none text-black"
+            href="https://davepaulsanders.github.io/react-portfolio/"
+          >
             Dave Sanders
           </a>
         </h1>
@@ -48,11 +51,12 @@ function Header(props) {
             {links.map((link) => {
               return (
                 <li
-                  key={link}
-                  className={link === activeNav ? "active" : ""}
+                  key={link.page}
                   onClick={handleNavClick}
                 >
-                  {link}
+                  <Link className={link.page === activeNav ? "active nav-href" : "nav-href"} to={link.link}>
+                    {link.page}
+                  </Link>
                 </li>
               );
             })}
