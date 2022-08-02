@@ -7,7 +7,7 @@ import Resume from "./components/Resume/Resume";
 import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Switch } from "react-router-dom";
 
 function App() {
   const [links] = useState([
@@ -27,7 +27,7 @@ function App() {
           setActiveNav={setActiveNav}
         />
         <div className="site-container d-flex justify-content-center w-100">
-          <Routes>
+          <Switch>
             <Route path="/react-portfolio" element={<About />} />
             <Route path="/about" element={<About />} />
             <Route path="/skills" element={<Skills />} />
@@ -35,7 +35,7 @@ function App() {
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<About />} />
-          </Routes>
+          </Switch>
         </div>
         <Footer />
       </div>
