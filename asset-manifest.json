@@ -1,7 +1,7 @@
 {
-  "main.css": "/react-portfolio/static/css/main.8ffdcc7c.chunk.css",
-  "main.js": "/react-portfolio/static/js/main.8dc2a964.chunk.js",
-  "main.js.map": "/react-portfolio/static/js/main.8dc2a964.chunk.js.map",
+  "main.css": "/react-portfolio/static/css/main.34cafe69.chunk.css",
+  "main.js": "/react-portfolio/static/js/main.39e7295d.chunk.js",
+  "main.js.map": "/react-portfolio/static/js/main.39e7295d.chunk.js.map",
   "static/js/1.dc2c6eca.chunk.js": "/react-portfolio/static/js/1.dc2c6eca.chunk.js",
   "static/js/1.dc2c6eca.chunk.js.map": "/react-portfolio/static/js/1.dc2c6eca.chunk.js.map",
   "static/css/2.11a1bdd7.chunk.css": "/react-portfolio/static/css/2.11a1bdd7.chunk.css",
@@ -18,9 +18,9 @@
   "static/media/employee-tracker.png": "/react-portfolio/static/media/employee-tracker.349548b2.png",
   "static/media/nba-standings.png": "/react-portfolio/static/media/nba-standings.a4fbe15d.png",
   "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.7d7e6ec1.png",
-  "static/css/main.8ffdcc7c.chunk.css.map": "/react-portfolio/static/css/main.8ffdcc7c.chunk.css.map",
   "static/css/2.11a1bdd7.chunk.css.map": "/react-portfolio/static/css/2.11a1bdd7.chunk.css.map",
+  "static/css/main.34cafe69.chunk.css.map": "/react-portfolio/static/css/main.34cafe69.chunk.css.map",
   "index.html": "/react-portfolio/index.html",
-  "precache-manifest.6d81b762477c7b9fa315b1c6dd04573b.js": "/react-portfolio/precache-manifest.6d81b762477c7b9fa315b1c6dd04573b.js",
+  "precache-manifest.6e015a0b10afcb32470aa93648bd3b62.js": "/react-portfolio/precache-manifest.6e015a0b10afcb32470aa93648bd3b62.js",
   "service-worker.js": "/react-portfolio/service-worker.js"
 }
