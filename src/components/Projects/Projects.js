@@ -93,17 +93,17 @@ const Projects = () => {
                 </p>
                 {project.liveSite ? (
                   <div className="link-to-site justify-content-between">
-                    <a href={project.github}>
+                    <a target="_blank" href={project.github}>
                       <img className="link-images" src={github} alt="github" />
                       or
                     </a>
-                    <a href={project.liveSite}>
+                    <a target="_blank" href={project.liveSite}>
                       <img className="link-images" src={www} alt="live site" />
                     </a>
                   </div>
                 ) : (
                   <div className="link-to-site justify-content-between">
-                    <a href={project.github}>
+                    <a target="_blank" href={project.github}>
                       <img
                         className="link-images link-images-no-live"
                         src={github}
