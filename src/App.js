@@ -19,7 +19,7 @@ function App() {
   ]);
   const [activeNav, setActiveNav] = useState(links[0]);
   return (
-    <Router>
+    <Router basename="/react-portfolio">
       <div className="App">
         <Header
           links={links}
