@@ -55,7 +55,7 @@ function Header(props) {
                     className={
                       link.page === activeNav ? "active nav-href" : "nav-href"
                     }
-                    to={`#${link.link}`}
+                    to={link.link}
                   >
                     {link.page}
                   </Link>
