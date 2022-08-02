@@ -41,7 +41,7 @@ const Skills = () => {
           );
         })}
       </div>
-      <p className="skill-selection wipe2 align-self-start ms-4 mb-1">{activeSkill.name}</p>
+      <p className="skill-selection wipe2 ms-4 mb-1">{activeSkill.name}</p>
       <div className="skills-extra-info wipe d-flex p-3">
         <p className="skills-text text-appear">{skillText}</p>
       </div>
