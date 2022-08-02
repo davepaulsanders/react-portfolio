@@ -50,11 +50,13 @@ function Header(props) {
           <ul className="nav-ul d-flex list-unstyled">
             {links.map((link) => {
               return (
-                <li
-                  key={link.page}
-                  onClick={handleNavClick}
-                >
-                  <Link className={link.page === activeNav ? "active nav-href" : "nav-href"} to={link.link}>
+                <li key={link.page} onClick={handleNavClick}>
+                  <Link
+                    className={
+                      link.page === activeNav ? "active nav-href" : "nav-href"
+                    }
+                    to={link.link}
+                  >
                     {link.page}
                   </Link>
                 </li>
