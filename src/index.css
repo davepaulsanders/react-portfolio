@@ -20,3 +20,8 @@ code {
     monospace;
 }
 
+a:focus {
+  text-decoration: none!important;
+  color: black!important;
+}
+
