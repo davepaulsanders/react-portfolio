@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5cd21272680b234e5fcb",
-    "url": "/react-portfolio/static/css/main.cb8cfab6.chunk.css"
+    "revision": "8dc2a96490f2aeca55b3",
+    "url": "/react-portfolio/static/css/main.8ffdcc7c.chunk.css"
   },
   {
-    "revision": "5cd21272680b234e5fcb",
-    "url": "/react-portfolio/static/js/main.5cd21272.chunk.js"
+    "revision": "8dc2a96490f2aeca55b3",
+    "url": "/react-portfolio/static/js/main.8dc2a964.chunk.js"
   },
   {
     "revision": "dc2c6ecaabfff3523052",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/grade-gatsby.a96be8a6.png"
   },
   {
-    "revision": "88ead49a6e604f8e8ff07cf22d7543c4",
-    "url": "/react-portfolio/static/media/nba.88ead49a.png"
+    "revision": "4e2ebf19a46b49a396d7ac9e01382a80",
+    "url": "/react-portfolio/static/media/nba.4e2ebf19.png"
   },
   {
     "revision": "349548b2600c2726847753707d487a8b",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/weather-dashboard.7d7e6ec1.png"
   },
   {
-    "revision": "0910f55e483343b6e34e48ee09219de2",
+    "revision": "abf10d22157186e18665a60902467435",
     "url": "/react-portfolio/index.html"
   }
 ];

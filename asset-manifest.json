@@ -1,7 +1,7 @@
 {
-  "main.css": "/react-portfolio/static/css/main.cb8cfab6.chunk.css",
-  "main.js": "/react-portfolio/static/js/main.5cd21272.chunk.js",
-  "main.js.map": "/react-portfolio/static/js/main.5cd21272.chunk.js.map",
+  "main.css": "/react-portfolio/static/css/main.8ffdcc7c.chunk.css",
+  "main.js": "/react-portfolio/static/js/main.8dc2a964.chunk.js",
+  "main.js.map": "/react-portfolio/static/js/main.8dc2a964.chunk.js.map",
   "static/js/1.dc2c6eca.chunk.js": "/react-portfolio/static/js/1.dc2c6eca.chunk.js",
   "static/js/1.dc2c6eca.chunk.js.map": "/react-portfolio/static/js/1.dc2c6eca.chunk.js.map",
   "static/css/2.11a1bdd7.chunk.css": "/react-portfolio/static/css/2.11a1bdd7.chunk.css",
@@ -14,13 +14,13 @@
   "static/media/gigSocial.png": "/react-portfolio/static/media/gigSocial.b8d01607.png",
   "static/media/tech-nically.png": "/react-portfolio/static/media/tech-nically.b9ca1060.png",
   "static/media/grade-gatsby.png": "/react-portfolio/static/media/grade-gatsby.a96be8a6.png",
-  "static/media/nba.png": "/react-portfolio/static/media/nba.88ead49a.png",
+  "static/media/nba.png": "/react-portfolio/static/media/nba.4e2ebf19.png",
   "static/media/employee-tracker.png": "/react-portfolio/static/media/employee-tracker.349548b2.png",
   "static/media/nba-standings.png": "/react-portfolio/static/media/nba-standings.a4fbe15d.png",
   "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.7d7e6ec1.png",
-  "static/css/main.cb8cfab6.chunk.css.map": "/react-portfolio/static/css/main.cb8cfab6.chunk.css.map",
+  "static/css/main.8ffdcc7c.chunk.css.map": "/react-portfolio/static/css/main.8ffdcc7c.chunk.css.map",
   "static/css/2.11a1bdd7.chunk.css.map": "/react-portfolio/static/css/2.11a1bdd7.chunk.css.map",
   "index.html": "/react-portfolio/index.html",
-  "precache-manifest.ef3aa62e611cb1ad5c27f92729203ff0.js": "/react-portfolio/precache-manifest.ef3aa62e611cb1ad5c27f92729203ff0.js",
+  "precache-manifest.6d81b762477c7b9fa315b1c6dd04573b.js": "/react-portfolio/precache-manifest.6d81b762477c7b9fa315b1c6dd04573b.js",
   "service-worker.js": "/react-portfolio/service-worker.js"
 }
