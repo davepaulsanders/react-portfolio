@@ -115,6 +115,10 @@
     animation: materialize ease-in 1.6s backwards;
 
 }
+.projects-container div:nth-child(7){
+    animation: materialize ease-in 1.8s backwards;
+
+}
 
 .projects-container {
     display: grid;
