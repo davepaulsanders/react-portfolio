@@ -14,6 +14,15 @@ const Projects = () => {
       liveSite: "https://gigsocial.herokuapp.com/",
     },
     {
+      id: "nba-live",
+      title: "NBA Live Scores",
+      src: require("../../assets/nba.png"),
+      description:
+        "A live score tracker for daily NBA games that shows the highest scorer on each team",
+      github: "https://github.com/davepaulsanders/NBA-SCORES-AND-STATS",
+      liveSite: "https://nba-games.netlify.app/",
+    },
+    {
       id: "tech-nically",
       title: "Tech-nically",
       src: require("../../assets/tech-nically.png"),
@@ -29,15 +38,6 @@ const Projects = () => {
         "A grading portal for elementary school teachers and students",
       github: "https://github.com/britbolt/grade-gatsby",
       liveSite: "https://grade-gatsby.herokuapp.com/",
-    },
-    {
-      id: "nba-live",
-      title: "NBA Live Scores",
-      src: require("../../assets/nba.png"),
-      description:
-        "A live score tracker for daily NBA games that shows the highest scorer on each team",
-      github: "https://github.com/davepaulsanders/NBA-SCORES-AND-STATS",
-      liveSite: "https://nba-games.netlify.app/",
     },
     {
       id: "employee-tracker",

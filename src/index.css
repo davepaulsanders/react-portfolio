@@ -1,7 +1,7 @@
 :root {
-  --main-bg: #fae9c8;
-  --secondary: #50585e;
-  --third: #cc5713;
+  --main-bg: #F6F8FE;
+  --secondary: rgb(53, 53, 53);
+  --third: #7055E7;
 }
 
 body {

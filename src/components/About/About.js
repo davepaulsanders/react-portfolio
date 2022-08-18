@@ -5,7 +5,7 @@ const smallHeadshot = require("../../assets/small-headshot.jpeg");
 const Hero = () => {
   return (
     <div className="container d-flex flex-column justify-content-center align-items-center text-center p-4">
-      <div>
+      <div className="d-flex justify-content-center">
         <h2 className="about-hero pb-4">
           Full Stack Web Developer from Washington D.C.
         </h2>
