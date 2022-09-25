@@ -1,7 +1,7 @@
 # Dave Sanders
 
 
-(Live site)[https://davepaulsanders.github.io/react-portfolio/]
+[Live site](https://davepaulsanders.github.io/react-portfolio/)
 
 Thanks for checking out my portfolio!
 
