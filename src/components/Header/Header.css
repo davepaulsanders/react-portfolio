@@ -58,13 +58,15 @@ li {
         transform: translateX(400%);
         position: fixed!important;
         background-color: var(--secondary);
-        color: white;
+        color: var(--secondary);
         z-index: 100;
         width: 100%;
         height: 100vh;
         padding-top: 2rem;
     }
-
+.nav-href {
+    color: #fff;
+}
     .nav-is-open {
         transform: translateX(0%);
     }
