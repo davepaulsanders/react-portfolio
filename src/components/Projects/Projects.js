@@ -11,7 +11,7 @@ const Projects = () => {
       src: require("../../assets/gigSocial.png"),
       description: "An app to help musicians organize their live sets",
       github: "https://github.com/davepaulsanders/gigSocial",
-      liveSite: "https://gigsocial.herokuapp.com/",
+      liveSite: "https://gigsocial.netlify.app/",
     },
     {
       id: "nba-live",
@@ -28,7 +28,7 @@ const Projects = () => {
       src: require("../../assets/tech-nically.png"),
       description: "A tech blog built with the Sequelize ORM",
       github: "https://github.com/davepaulsanders/Tech-nically",
-      liveSite: "https://tech-nically.herokuapp.com/",
+      liveSite: "https://technically.onrender.com/",
     },
     {
       id: "grade-gatsby",
