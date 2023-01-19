@@ -1,24 +1,22 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.9bb9db51.css",
-    "main.js": "/react-portfolio/static/js/main.52662c18.js",
+    "main.js": "/react-portfolio/static/js/main.8c2d6795.js",
     "static/js/787.128fc6e9.chunk.js": "/react-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/grade-gatsby.png": "/react-portfolio/static/media/grade-gatsby.cf45fbe75a756bab6e1b.png",
     "static/media/small-headshot.jpeg": "/react-portfolio/static/media/small-headshot.fd17a12754894f0382df.jpeg",
     "static/media/gigSocial.png": "/react-portfolio/static/media/gigSocial.8566031ccbf06277af57.png",
     "static/media/nba.png": "/react-portfolio/static/media/nba.3d8813432263c5dee6f2.png",
     "static/media/tech-nically.png": "/react-portfolio/static/media/tech-nically.7f8edee0f13309d4954a.png",
-    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.64f3e932ed05f4e2eb59.png",
     "static/media/employee-tracker.png": "/react-portfolio/static/media/employee-tracker.a0c144335c4fd7e7d8e8.png",
     "static/media/nba-standings.png": "/react-portfolio/static/media/nba-standings.56365817e2fc5849e2aa.png",
     "static/media/github.png": "/react-portfolio/static/media/github.705e116fa980075e0cc6.png",
     "index.html": "/react-portfolio/index.html",
     "main.9bb9db51.css.map": "/react-portfolio/static/css/main.9bb9db51.css.map",
-    "main.52662c18.js.map": "/react-portfolio/static/js/main.52662c18.js.map",
+    "main.8c2d6795.js.map": "/react-portfolio/static/js/main.8c2d6795.js.map",
     "787.128fc6e9.chunk.js.map": "/react-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bb9db51.css",
-    "static/js/main.52662c18.js"
+    "static/js/main.8c2d6795.js"
   ]
 }
