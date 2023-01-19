@@ -31,15 +31,6 @@ const Projects = () => {
       liveSite: "https://technically.onrender.com/",
     },
     {
-      id: "grade-gatsby",
-      title: "The Grade Gatsby",
-      src: require("../../assets/grade-gatsby.png"),
-      description:
-        "A grading portal for elementary school teachers and students",
-      github: "https://github.com/britbolt/grade-gatsby",
-      liveSite: "https://grade-gatsby.herokuapp.com/",
-    },
-    {
       id: "employee-tracker",
       title: "Employee Tracker",
       src: require("../../assets/employee-tracker.png"),
@@ -54,14 +45,6 @@ const Projects = () => {
       description:
         "A simple scraper to get NBA regular season standings data that isn't available in the the free ballislife API",
       github: "https://github.com/davepaulsanders/nba-standings-scraper",
-    },
-    {
-      id: "weather",
-      title: "Weather Dashboard",
-      src: require("../../assets/weather-dashboard.png"),
-      description: "A simple weather dashboard",
-      github: "https://github.com/davepaulsanders/Weather-Dashboard",
-      liveSite: "https://davepaulsanders.github.io/Weather-Dashboard/",
     },
   ];
 
